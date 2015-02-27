@@ -34,8 +34,7 @@ public class DepositStepDefinitions {
     }
  
     private class User {
-        private Account account;
- 
+       
         public void setAccount(Account account) {
             this.account = account;
         }
