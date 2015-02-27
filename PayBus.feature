@@ -13,11 +13,8 @@ public class DepositStepDefinitions {
  
     private Account account;
  
-    @Given("^a User has no money in their account$")
-    public void a_User_has_no_money_in_their_current_account() {
-        User user = new User();
-        account = new Account();
-        user.setAccount(account);
+    
+        
  
         assertTrue("The balance is not zero.", account.getBalance() == 0L);
     }
