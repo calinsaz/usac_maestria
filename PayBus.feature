@@ -2,7 +2,7 @@ src/test/java/com/as01/integracion/BusPayStepDefinitions.java
 
 
 
-import cucumber.annotation.en.When;
+import cucumber.annotation.en.When
 import cucumber.runtime.PendingException;
  
 public class DepositStepDefinitions {
