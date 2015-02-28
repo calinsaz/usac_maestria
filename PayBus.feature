@@ -20,6 +20,11 @@ public class DepositStepDefinitions {
         account.deposit(amount);
     }
  
+
+
+
+
+
     @Then("^the balance should be £(\\d+)$")
     public void the_balance_should_be_£(int arg1) {
         // Express the Regexp above with the code you wish you had
