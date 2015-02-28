@@ -1,11 +1,7 @@
 src/test/java/com/as01/integracion/BusPayStepDefinitions.java
 
 
-package com.as01.integracion;
- 
-import static org.junit.Assert.assertTrue;
-import cucumber.annotation.en.Given;
-import cucumber.annotation.en.Then;
+
 import cucumber.annotation.en.When;
 import cucumber.runtime.PendingException;
  
